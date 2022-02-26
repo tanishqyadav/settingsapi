@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>settings</title>
+    <link rel="'stylesheet" href="{% static 'settings/css/bootstrap.css' %}">
+
+</head>
+<body>
+<div class="container mt-5">
+    <h2>Settings Here</h2>
+    {% block content %}{% endblock content %}
+</div>
+    <script src="{% static 'settings/js/jquery.js' %}"></script>
+    <script src="{% static 'settings/js/popper.js' %}"></script>
+    <script src="{% static 'settings/js/bootstrap.js' %}"></script>
+
+</body>
+</html>
